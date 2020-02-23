@@ -8,6 +8,3 @@ The user will be able to view his/her balance and make a payment if they would l
 * How to apply access modifiers and encapsulation 
 * How to use data structures and arrays to handle data sets and collection of objects
 * How to implement core object-oriented programming techniques to optimize application
-
-# View Project
-![View Java Project](https://media.giphy.com/media/cLZVxf9HM5bV6Lxm7i/giphy.gif)
