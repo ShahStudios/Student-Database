@@ -52,12 +52,10 @@ public class Student {
 				if (!course.equalsIgnoreCase("exit")) {
 					studentCourses = studentCourses + "\n " + course;
 					tuitionBalance = tuitionBalance + courseCost;
-				}
-				else {
+				} else {
 					break;
-				} 
-			} 
-			if (gradeYear == 2) {
+				}
+			} else if (gradeYear == 2) {
 				System.out.println("\n Sophmore Available Courses: \n"
 						+ "  CSCI 2200: Foundations of CS\n"
 						+ "  CSCI 2500: Computer Organization\n"
@@ -74,8 +72,7 @@ public class Student {
 				else {
 					break;
 				} 
-			} 
-			if (gradeYear == 3) {
+			} else if (gradeYear == 3) {
 				System.out.println("\n Junior Available Courses: \n"
 						+ "  CSCI 4210: Operating Systems\n"
 						+ "  CSCI 4430: Programming Languages\n"
@@ -92,8 +89,7 @@ public class Student {
 				else {
 					break;
 				} 
-			} 			
-			if (gradeYear == 4) {
+			} 	else if (gradeYear == 4) {
 				System.out.println("\n Senior Available Courses: \n"
 						+ "  CSCI 4430: Programming Languages\n"
 						+ "  CSCI 4500: Computer Organization\n"
@@ -109,8 +105,7 @@ public class Student {
 				else {
 					break;
 				} 
-			} 					
-			else {
+			} else {
 				System.out.println("\nSorry, but you have selected an invalid input. \nPlease contact: shah@support.edu");
 				System.exit(0);
 			}
@@ -148,6 +143,6 @@ public class Student {
 		return "\n Student Information: \n" + " Full Name: " + firstName + " " + lastName + "\n" +
 				" Grade Year: " + gradeYear + 
 				"\n Courses Enrolled: " + "    " + studentCourses + 
-				"\n Balance Due: " + tuitionBalance;
+				"\n Balance Due: " + tuitionBalance + "\n";
 	}
 }
